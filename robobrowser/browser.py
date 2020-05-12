@@ -5,7 +5,7 @@ Robotic browser.
 import re
 import requests
 from bs4 import BeautifulSoup
-from werkzeug import cached_property
+from werkzeug.utils import cached_property
 from requests.packages.urllib3.util.retry import Retry
 
 from robobrowser import helpers
